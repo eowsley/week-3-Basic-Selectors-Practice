@@ -1,48 +1,27 @@
-<!-- <!DOCTYPE html> -->
-<html>
-<head>
-  <title>Tour</title>
-</head>
-<body>
 
-  <!-- Header -->
+<style>
+    /* Make all LI's blue */
+li {
+    color: blue;
+}
+/* Make everything with the class of 'done' grey*/
+.done {
+    color: grey;
+}
+/* Make the element with the id of 'clear' have a red BG and white text */
+#clear {
+    background-color: red;
+    color: white;
+}
+</style>
 
-  <!-- Main -->
-  <main>
-    <section class="hmpage-wrapper">
-      <nav>
-        <div class="logo">TOUR</div>
-        <div class="menu">
-          <ul>
-            <li>Home</li>
-            <li>Tours</li>
-            <li>Hotels</li>
-          </ul>
-        </div>
-      </nav>
-      <div class="title">
-        <h5>EXPLORE OUR MOST TAVEL AGENCY
-        </h5>
-        <h1>Our Travel Agency
-        </h1>
-      </div>
-      <div class="button-wrapper">
-        <div>
-          <i class="fas fa-plane"></i>
-          Flight
-        </div>
-        <div>
-          <i class="fas fa-bed"></i>
-          Hotel
-        </div>
-        <div>
-          <i class="fas fa-car-alt"></i>
-          Car Rent
-        </div>
-      </div>
-    </section>
-  </main>
-
-</body>
-
-</html>
+<h1>Todos</h1>
+<ul>
+  <li class="done">Walk Chickens</li>
+  <li>Clean Out Coop</li>
+  <li class="done">Collect Chicken Eggs</li>
+  <li>Incubate Chicken Eggs</li>
+  <li>Hatch New Chickens!</li>
+</ul>
+<button id="clear">Clear List</button>
+<button>Add Todo</button>
